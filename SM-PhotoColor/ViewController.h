@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ColorsContainerView.h"
 
 @interface ViewController : UIViewController
+{
+    IBOutlet    UIImageView     *imageViewPhoto;
+    IBOutlet    UIToolbar       *toolbarBottom;
+    ColorsContainerView         *colorsContainerView;
+}
 
+- (IBAction)actionColorView:(id)sender;
 
 @end
 

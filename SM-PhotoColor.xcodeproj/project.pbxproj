@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5986DE41C414CF100FF29BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5986DE31C414CF100FF29BE /* Default-568h@2x.png */; };
+		C5986DE91C414D4700FF29BE /* ColorsContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5986DE71C414D4700FF29BE /* ColorsContainerView.m */; };
+		C5986DEA1C414D4700FF29BE /* ColorsContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5986DE81C414D4700FF29BE /* ColorsContainerView.xib */; };
+		C5986DED1C414E2700FF29BE /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = C5986DEC1C414E2700FF29BE /* UIColor+Expanded.m */; };
+		C5986DEF1C414F2700FF29BE /* colorset in Resources */ = {isa = PBXBuildFile; fileRef = C5986DEE1C414F2700FF29BE /* colorset */; };
+		C5986DF11C4150FD00FF29BE /* test-background.png in Resources */ = {isa = PBXBuildFile; fileRef = C5986DF01C4150FD00FF29BE /* test-background.png */; };
+		C5986DF31C415FDF00FF29BE /* Screenshot-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C5986DF21C415FDF00FF29BE /* Screenshot-1.png */; };
+		C5986DF51C415FE600FF29BE /* Screenshot-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C5986DF41C415FE600FF29BE /* Screenshot-2.png */; };
 		C5E691131C414C0E00BD63DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E691121C414C0E00BD63DD /* main.m */; };
 		C5E691161C414C0E00BD63DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E691151C414C0E00BD63DD /* AppDelegate.m */; };
 		C5E691191C414C0E00BD63DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E691181C414C0E00BD63DD /* ViewController.m */; };
 		C5E6911C1C414C0E00BD63DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E6911A1C414C0E00BD63DD /* Main.storyboard */; };
 		C5E6911E1C414C0E00BD63DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E6911D1C414C0E00BD63DD /* Assets.xcassets */; };
-		C5E691211C414C0E00BD63DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E6911F1C414C0E00BD63DD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5986DE31C414CF100FF29BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C5986DE61C414D4700FF29BE /* ColorsContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsContainerView.h; sourceTree = "<group>"; };
+		C5986DE71C414D4700FF29BE /* ColorsContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsContainerView.m; sourceTree = "<group>"; };
+		C5986DE81C414D4700FF29BE /* ColorsContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorsContainerView.xib; sourceTree = "<group>"; };
+		C5986DEB1C414E2700FF29BE /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		C5986DEC1C414E2700FF29BE /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		C5986DEE1C414F2700FF29BE /* colorset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = colorset; sourceTree = "<group>"; };
+		C5986DF01C4150FD00FF29BE /* test-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test-background.png"; sourceTree = "<group>"; };
+		C5986DF21C415FDF00FF29BE /* Screenshot-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot-1.png"; sourceTree = "<group>"; };
+		C5986DF41C415FE600FF29BE /* Screenshot-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot-2.png"; sourceTree = "<group>"; };
 		C5E6910E1C414C0E00BD63DD /* SM-PhotoColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SM-PhotoColor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E691121C414C0E00BD63DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5E691141C414C0E00BD63DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,7 +41,6 @@
 		C5E691181C414C0E00BD63DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C5E6911B1C414C0E00BD63DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5E6911D1C414C0E00BD63DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C5E691201C414C0E00BD63DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5E691221C414C0E00BD63DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,9 +55,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5986DE51C414D4700FF29BE /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C5986DEB1C414E2700FF29BE /* UIColor+Expanded.h */,
+				C5986DEC1C414E2700FF29BE /* UIColor+Expanded.m */,
+				C5986DE61C414D4700FF29BE /* ColorsContainerView.h */,
+				C5986DE71C414D4700FF29BE /* ColorsContainerView.m */,
+				C5986DE81C414D4700FF29BE /* ColorsContainerView.xib */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		C5E691051C414C0E00BD63DD = {
 			isa = PBXGroup;
 			children = (
+				C5986DE31C414CF100FF29BE /* Default-568h@2x.png */,
 				C5E691101C414C0E00BD63DD /* SM-PhotoColor */,
 				C5E6910F1C414C0E00BD63DD /* Products */,
 			);
@@ -58,13 +87,16 @@
 		C5E691101C414C0E00BD63DD /* SM-PhotoColor */ = {
 			isa = PBXGroup;
 			children = (
+				C5986DF21C415FDF00FF29BE /* Screenshot-1.png */,
+				C5986DF41C415FE600FF29BE /* Screenshot-2.png */,
+				C5986DEE1C414F2700FF29BE /* colorset */,
+				C5986DE51C414D4700FF29BE /* Library */,
 				C5E691141C414C0E00BD63DD /* AppDelegate.h */,
 				C5E691151C414C0E00BD63DD /* AppDelegate.m */,
 				C5E691171C414C0E00BD63DD /* ViewController.h */,
 				C5E691181C414C0E00BD63DD /* ViewController.m */,
 				C5E6911A1C414C0E00BD63DD /* Main.storyboard */,
 				C5E6911D1C414C0E00BD63DD /* Assets.xcassets */,
-				C5E6911F1C414C0E00BD63DD /* LaunchScreen.storyboard */,
 				C5E691221C414C0E00BD63DD /* Info.plist */,
 				C5E691111C414C0E00BD63DD /* Supporting Files */,
 			);
@@ -74,6 +106,7 @@
 		C5E691111C414C0E00BD63DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5986DF01C4150FD00FF29BE /* test-background.png */,
 				C5E691121C414C0E00BD63DD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -136,9 +169,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5E691211C414C0E00BD63DD /* LaunchScreen.storyboard in Resources */,
+				C5986DF51C415FE600FF29BE /* Screenshot-2.png in Resources */,
+				C5986DEA1C414D4700FF29BE /* ColorsContainerView.xib in Resources */,
 				C5E6911E1C414C0E00BD63DD /* Assets.xcassets in Resources */,
+				C5986DF31C415FDF00FF29BE /* Screenshot-1.png in Resources */,
 				C5E6911C1C414C0E00BD63DD /* Main.storyboard in Resources */,
+				C5986DF11C4150FD00FF29BE /* test-background.png in Resources */,
+				C5986DEF1C414F2700FF29BE /* colorset in Resources */,
+				C5986DE41C414CF100FF29BE /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5986DE91C414D4700FF29BE /* ColorsContainerView.m in Sources */,
 				C5E691191C414C0E00BD63DD /* ViewController.m in Sources */,
 				C5E691161C414C0E00BD63DD /* AppDelegate.m in Sources */,
 				C5E691131C414C0E00BD63DD /* main.m in Sources */,
+				C5986DED1C414E2700FF29BE /* UIColor+Expanded.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,14 +204,6 @@
 				C5E6911B1C414C0E00BD63DD /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C5E6911F1C414C0E00BD63DD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5E691201C414C0E00BD63DD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -213,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -298,6 +330,7 @@
 				C5E691271C414C0E00BD63DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
