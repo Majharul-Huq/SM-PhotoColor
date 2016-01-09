@@ -16,4 +16,4 @@ Majharul Huq, sumancsc@gmail.com
 
 ## License
 
-DropDownTableView is available under the MIT license. See the LICENSE file for more info.
+PhotoColor is available under the MIT license. See the LICENSE file for more info.
